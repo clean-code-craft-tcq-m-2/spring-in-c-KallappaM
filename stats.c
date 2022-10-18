@@ -5,6 +5,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.average = GetAvgerageValue(numberset,setlength);
     s.min = GetMinimumValue(numberset,setlength);
     s.max = GetMaximumValue(numberset,setlength);
+return s;
 }
 
 float GetMinimumValue(const float* numberset,int setlength)
